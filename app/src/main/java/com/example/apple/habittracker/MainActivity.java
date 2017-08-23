@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         HabitDbHelper dbHelper = new HabitDbHelper(this);
         dbHelper.insertHabit("Rock music", "Action movie", HabitEntry.SPORT_BASKETBALL);
         dbHelper.readHabit();
-        dbHelper.updateSportHabit(HabitEntry.SPORT_SOCCOER);
+        dbHelper.updateSportHabit(HabitEntry.SPORT_SOCCER);
         dbHelper.readHabit();
         dbHelper.deleteHabitDB(this);
     }
